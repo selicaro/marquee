@@ -174,3 +174,18 @@ body { margin: 0; padding: 10px;}
     z-index: 105;
     background-position: -8px 4px;
 }
+
+.marquee .marquee_stage_small {
+    height: inherit;
+    position: relative;
+    overflow: hidden;
+}
+
+.marquee .marquee_stage_small .marquee_panel {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
