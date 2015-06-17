@@ -187,5 +187,49 @@ body { margin: 0; padding: 10px;}
     position: absolute;
     top: 0px;
     left: 0px;
-    
+
+}
+
+@media screen and (max-width: 800px) {
+    .marquee {
+        font-size: 14px;
+        height: 325px;
+        background-color: #444;
+    }
+
+    .marquee .btn {
+        width: 29px;
+        height: 29px;
+        background-size: 33px 20px;
+        top: 140px;
+    }
+
+    .marquee .btn.prev {
+        background-position: -4px 4px;
+    }
+
+    .marquee .btn.next {
+        background-position: -1px 4px;
+
+    }
+
+    .marquee .marquee_panel .panel_caption {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .marquee .marquee_panel .panel_caption p {
+        display: none;
+    }
+
+    .marquee .marquee_panel .panel_caption a.cta {
+        margin-top: 10px;
+        padding: 4px 20px;
+
+    }
+
+    .marquee .marquee_nav div {
+        width: 13px; height: 13px;
+        margin: 0px 12px 0px 12px;
+    }
 }
